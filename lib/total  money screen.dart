@@ -53,18 +53,7 @@ class MoneyDonationScreen extends StatelessWidget {
                     _buildStep('For a detailed report, go to Settings > Statements and select the desired date range.'),
 
                     const SizedBox(height: 20),
-                    const Text(
-                      '💰 JazzCash Instructions:',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                    ),
-                    const SizedBox(height: 10),
-                    _buildStep('Open the JazzCash App on your mobile device.'),
-                    _buildStep('Login using the donation account.'),
-                    _buildStep('Tap on "Mini Statement" or "Transaction History".'),
-                    _buildStep('View all received donations with date and amount.'),
-                    _buildStep('To check total, view your wallet balance or download full statement via More > Account Statements.'),
 
-                    const SizedBox(height: 20),
                     const Text(
                       '📞 Official Donation Number:',
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),

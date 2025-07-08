@@ -259,11 +259,7 @@ class DashboardScreen extends StatelessWidget {
                             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                           ),
                           const Spacer(),
-                          IconButton(
-                            icon: const Icon(Icons.add, color: Colors.green),
-                            onPressed: () => _addUserDialog(context),
-                            tooltip: 'Add User',
-                          ),
+
                         ],
                       ),
                       const SizedBox(height: 10),
